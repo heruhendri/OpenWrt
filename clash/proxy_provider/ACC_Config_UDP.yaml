@@ -1,0 +1,38 @@
+# Single akun
+# reformat di : sub.bonds.id
+# Gunakan Akun UDP untuk bisa support Game Online, Video Call WA, Streaming Film, Netflix dll ...
+# Beli Akun ditempat langganan masing-masing atau cari yg gratisan support UDP di Telegram 🗿
+# =========== PROXY ACCOUNT ===========
+proxies:
+  - name: rembulanku1 xut 🇸🇬
+    server: 104.18.214.235
+    port: 443
+    type: vmess
+    uuid: bd495af4-716b-465a-8e38-10cf08ab3a12
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.do1.jstn.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ava.game.naver.com.do1.jstn.fun
+    udp: true
+  - name: UDP LINKGO XUTS 🇮🇩
+    server: 104.18.214.235
+    port: 443
+    type: vmess
+    uuid: 6216c9de-0baf-4b9e-b877-1610c042d6e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.linkgo.jbrs.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ava.game.naver.com.linkgo.jbrs.cloud
+    udp: true
