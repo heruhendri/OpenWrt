@@ -136,12 +136,6 @@ payload:
   #- PROCESS-NAME,org.telegram.messenger
   #- PROCESS-NAME,telegram.exe
 
-# Instagram
-- DOMAIN-SUFFIX,cdninstagram.com
-- DOMAIN-SUFFIX,instagr.am
-- DOMAIN-SUFFIX,instagram.com
-- DOMAIN-KEYWORD,instagram
-
 # Patreon
 - DOMAIN,live-patreon-marketing.pantheonsite.io
 - DOMAIN-SUFFIX,patreon.com
