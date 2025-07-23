@@ -36,36 +36,10 @@ payload:
 # Web anime pengencrotan
 - DOMAIN-KEYWORD,otakudesu
 
-# Youtube
-- DOMAIN-SUFFIX,ggpht.cn
-- DOMAIN-SUFFIX,ggpht.com
-- DOMAIN-SUFFIX,googlevideo.com
-- DOMAIN-SUFFIX,withyoutube.com
-- DOMAIN-SUFFIX,youtu.be
-- DOMAIN-SUFFIX,youtube
-- DOMAIN-KEYWORD,youtube.com
-- DOMAIN-SUFFIX,youtube-nocookie.com
-- DOMAIN-SUFFIX,youtube-ui.l.google.com
-- DOMAIN-SUFFIX,youtube.com.co
-- DOMAIN-SUFFIX,youtubeeducation.com
-- DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
-- DOMAIN-SUFFIX,youtubefanfest.com
-- DOMAIN-SUFFIX,youtubegaming.com
-- DOMAIN-SUFFIX,youtubekids.com
-- DOMAIN-SUFFIX,youtubemobilesupport.com"
-- DOMAIN-SUFFIX,yt.be
-- DOMAIN-SUFFIX,ytimg.com
-- DOMAIN,music.youtube.com
-# > Youtube IP-CIDR
-- IP-CIDR,172.110.32.0/21
-- IP-CIDR,216.73.80.0/20
-- IP-CIDR6,2620:120:e000::/40
-- DOMAIN-SUFFIX,iq.com
-
-  # > Tencent Video
+# > Tencent Video
 - DOMAIN-SUFFIX,v.smtcdns.com
 - DOMAIN-SUFFIX,vv.video.qq.com
-  # > NIMO TV
+# > NIMO TV
 - DOMAIN-SUFFIX,ylog.nimo.tv
 - DOMAIN-SUFFIX,api.nimo.tv
 - DOMAIN-SUFFIX,metric.nimo.tv
@@ -133,7 +107,7 @@ payload:
 - DOMAIN-SUFFIX,tv.apple.com
   
   # > BBC iPlayer
-  - DOMAIN,aod-dash-uk-live.akamaized.net
+- DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
   - DOMAIN,as-dash-uk-live.akamaized.net
   - DOMAIN,as-hls-uk-live.akamaized.net
@@ -207,13 +181,13 @@ payload:
 - DOMAIN-SUFFIX,japronx.vip
 
   # > JOOX
-  - DOMAIN-SUFFIX,i-joox.com
-  - DOMAIN-SUFFIX,joox.com
-  - DOMAIN-SUFFIX,sanook.com
-  - DOMAIN-KEYWORD,jooxweb-api
-  - IP-CIDR,119.28.182.0/23
-  - IP-CIDR,203.205.234.0/23
-  - PROCESS-NAME,com.tencent.ibg.joox
+- DOMAIN-SUFFIX,i-joox.com
+- DOMAIN-SUFFIX,joox.com
+- DOMAIN-SUFFIX,sanook.com
+- DOMAIN-KEYWORD,jooxweb-api
+- IP-CIDR,119.28.182.0/23
+- IP-CIDR,203.205.234.0/23
+- PROCESS-NAME,com.tencent.ibg.joox
 
   # > KKBOX
 - DOMAIN-SUFFIX,kkbox.com
@@ -481,9 +455,9 @@ payload:
 - DOMAIN-SUFFIX,cdn02.mola.tv
   
 # Disney Plus
-  - DOMAIN-SUFFIX,20thcenturystudios.com.au
-  - DOMAIN-SUFFIX,20thcenturystudios.com.br
-  - DOMAIN-SUFFIX,20thcenturystudios.jp
+- DOMAIN-SUFFIX,20thcenturystudios.com.au
+- DOMAIN-SUFFIX,20thcenturystudios.com.br
+- DOMAIN-SUFFIX,20thcenturystudios.jp
   - DOMAIN-SUFFIX,abc-studios.com
   - DOMAIN-SUFFIX,abc.com
   - DOMAIN-SUFFIX,abcnews.com
@@ -766,68 +740,67 @@ payload:
 - DOMAIN,dummy.dashdrakor.my.id
 
 # HBOAsia
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-  - DOMAIN,bcbolthboa-a.akamaihd.net
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
-  - DOMAIN,dai3fd1oh325y.cloudfront.net
-  - DOMAIN,hboasia1-i.akamaihd.net
-  - DOMAIN,hboasia2-i.akamaihd.net
-  - DOMAIN,hboasia3-i.akamaihd.net
-  - DOMAIN,hboasia4-i.akamaihd.net
-  - DOMAIN,hboasia5-i.akamaihd.net
-  - DOMAIN,hboasialive.akamaized.net
-  - DOMAIN,hbogoprod-vod.akamaized.net
-  - DOMAIN,hbolb.onwardsmg.com
-  - DOMAIN,hbounify-prod.evergent.com
-  - DOMAIN,players.brightcove.net
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com
-  - DOMAIN,wmff.warnermediacdn.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-KEYWORD,.hbogoasia.
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+- DOMAIN,bcbolthboa-a.akamaihd.net
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+- DOMAIN,dai3fd1oh325y.cloudfront.net
+- DOMAIN,hboasia1-i.akamaihd.net
+- DOMAIN,hboasia2-i.akamaihd.net
+- DOMAIN,hboasia3-i.akamaihd.net
+- DOMAIN,hboasia4-i.akamaihd.net
+- DOMAIN,hboasia5-i.akamaihd.net
+- DOMAIN,hboasialive.akamaized.net
+- DOMAIN,hbogoprod-vod.akamaized.net
+- DOMAIN,hbolb.onwardsmg.com
+- DOMAIN,hbounify-prod.evergent.com
+- DOMAIN,players.brightcove.net
+- DOMAIN,s3-ap-southeast-1.amazonaws.com
+- DOMAIN,wmff.warnermediacdn.com
+- DOMAIN-SUFFIX,hbogoasia.com
+- DOMAIN-SUFFIX,hbogoasia.hk
+- DOMAIN-KEYWORD,.hbogoasia.
 
 # IFlix WeTV
-  - DOMAIN-SUFFIX,webrtcpunch.video.qq.com
-  - DOMAIN-SUFFIX,api.weathercn.com
-  - DOMAIN-SUFFIX,iflix-images.akamaized.net
-  - DOMAIN-SUFFIX,iflix.com
-  - DOMAIN-SUFFIX,v.smtcdns.com
-  - DOMAIN-SUFFIX,v.smtcdns.net
-  - DOMAIN-SUFFIX,vv.video.qq.com
-  - DOMAIN-SUFFIX,wetv.vip
-  - DOMAIN-SUFFIX,wetvinfo.com
-  - IP-CIDR,150.109.28.51/32,no-resolve
+- DOMAIN-SUFFIX,webrtcpunch.video.qq.com
+- DOMAIN-SUFFIX,api.weathercn.com
+- DOMAIN-SUFFIX,iflix-images.akamaized.net
+- DOMAIN-SUFFIX,iflix.com
+- DOMAIN-SUFFIX,v.smtcdns.com
+- DOMAIN-SUFFIX,v.smtcdns.net
+- DOMAIN-SUFFIX,vv.video.qq.com
+- DOMAIN-SUFFIX,wetv.vip
+- DOMAIN-SUFFIX,wetvinfo.com
+- IP-CIDR,150.109.28.51/32,no-resolve
   
 # Asian Media
-  - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
-  - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
-  - DOMAIN,api.biliapi.com
-  - DOMAIN,api.biliapi.net
-  - DOMAIN,api.bilibili.com
-  - DOMAIN,app.biliapi.com
-  - DOMAIN,app.biliapi.net
-  - DOMAIN,app.bilibili.com
-  - DOMAIN,cache.video.iqiyi.com
-  - DOMAIN,chuangcachecdnoversea-tw.inter.iqiyi.com
-  - DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
-  - DOMAIN,grpc.biliapi.net
-  - DOMAIN,intl-rcd.iqiyi.com
-  - DOMAIN,intl-subscription.iqiyi.com
-  - DOMAIN,intl.iqiyi.com
-  - DOMAIN,m.bilibili.com
-  - DOMAIN,mobileso.bz.mgtv.com
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net
-  - DOMAIN,www.bilibili.com
-  - DOMAIN-SUFFIX,api.mgtv.com
-  - DOMAIN-SUFFIX,iq.com
-  - DOMAIN-SUFFIX,wetv.vip
-  - DOMAIN-SUFFIX,wetvinfo.com
-  - DOMAIN-KEYWORD,cn-hk-eq-bcache-
-  - IP-CIDR,103.44.56.0/22
-  - IP-CIDR,116.211.202.206/32
-  - IP-CIDR,116.211.202.216/32
-  - IP-CIDR,118.26.120.0/24
-  - IP-CIDR,118.26.32.0/23
-  - IP-CIDR,23.40.241.251/32
-  - IP-CIDR,23.40.242.10/32
-  
+- DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
+- DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
+- DOMAIN,api.biliapi.com
+- DOMAIN,api.biliapi.net
+- DOMAIN,api.bilibili.com
+- DOMAIN,app.biliapi.com
+- DOMAIN,app.biliapi.net
+- DOMAIN,app.bilibili.com
+- DOMAIN,cache.video.iqiyi.com
+- DOMAIN,chuangcachecdnoversea-tw.inter.iqiyi.com
+- DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
+- DOMAIN,grpc.biliapi.net
+- DOMAIN,intl-rcd.iqiyi.com
+- DOMAIN,intl-subscription.iqiyi.com
+- DOMAIN,intl.iqiyi.com
+- DOMAIN,m.bilibili.com
+- DOMAIN,mobileso.bz.mgtv.com
+- DOMAIN,upos-hz-mirrorakam.akamaized.net
+- DOMAIN,www.bilibili.com
+- DOMAIN-SUFFIX,api.mgtv.com
+- DOMAIN-SUFFIX,iq.com
+- DOMAIN-SUFFIX,wetv.vip
+- DOMAIN-SUFFIX,wetvinfo.com
+- DOMAIN-KEYWORD,cn-hk-eq-bcache-
+- IP-CIDR,103.44.56.0/22
+- IP-CIDR,116.211.202.206/32
+- IP-CIDR,116.211.202.216/32
+- IP-CIDR,118.26.120.0/24
+- IP-CIDR,118.26.32.0/23
+- IP-CIDR,23.40.241.251/32
+- IP-CIDR,23.40.242.10/32
