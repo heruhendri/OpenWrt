@@ -36,32 +36,6 @@ payload:
 # Web anime pengencrotan
 - DOMAIN-KEYWORD,otakudesu
 
-# Youtube
-- DOMAIN-SUFFIX,ggpht.cn
-- DOMAIN-SUFFIX,ggpht.com
-- DOMAIN-SUFFIX,googlevideo.com
-- DOMAIN-SUFFIX,withyoutube.com
-- DOMAIN-SUFFIX,youtu.be
-- DOMAIN-SUFFIX,youtube
-- DOMAIN-KEYWORD,youtube.com
-- DOMAIN-SUFFIX,youtube-nocookie.com
-- DOMAIN-SUFFIX,youtube-ui.l.google.com
-- DOMAIN-SUFFIX,youtube.com.co
-- DOMAIN-SUFFIX,youtubeeducation.com
-- DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
-- DOMAIN-SUFFIX,youtubefanfest.com
-- DOMAIN-SUFFIX,youtubegaming.com
-- DOMAIN-SUFFIX,youtubekids.com
-- DOMAIN-SUFFIX,youtubemobilesupport.com"
-- DOMAIN-SUFFIX,yt.be
-- DOMAIN-SUFFIX,ytimg.com
-- DOMAIN,music.youtube.com
-# > Youtube IP-CIDR
-- IP-CIDR,172.110.32.0/21
-- IP-CIDR,216.73.80.0/20
-- IP-CIDR6,2620:120:e000::/40
-- DOMAIN-SUFFIX,iq.com
-
   # > Tencent Video
 - DOMAIN-SUFFIX,v.smtcdns.com
 - DOMAIN-SUFFIX,vv.video.qq.com
