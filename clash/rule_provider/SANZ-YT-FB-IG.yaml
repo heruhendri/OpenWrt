@@ -1,5 +1,5 @@
 # Behavior: classical
-# Last Edited By Qyubisanz14 2025
+# Last Edited By Hendri 2025
 payload:
   # Youtube
   - DOMAIN-SUFFIX,ggpht.cn
@@ -22,17 +22,20 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,music.youtube.com
   # > Youtube IP-CIDR
+
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,216.73.80.0/20
   - IP-CIDR6,2620:120:e000::/40
   - DOMAIN-SUFFIX,iq.com
   # Instagram
+
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-SUFFIX,aboutfacebook.com
   # Facebook META ALL
+
   - DOMAIN-SUFFIX,accessfacebookfromschool.com
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,acebooik.com

@@ -229,50 +229,50 @@ payload:
 - DST-PORT,9035
 
 # Honor Of Kings
-  - DOMAIN-SUFFIX,cloud-control.sgameglobal.com
-  - DOMAIN-SUFFIX,zga.globalconnetct.com
-  # TCP
-  - DST-PORT,5692
-  - DST-PORT,8085
-  - DST-PORT,8500
-  - DST-PORT,10000
-  - DST-PORT,10082
-  - DST-PORT,12346
-  - DST-PORT,20000
-  - DST-PORT,20001
-  - DST-PORT,20002
-  - DST-PORT,25000
-  - DST-PORT,29134
-  - DST-PORT,31003
+- DOMAIN-SUFFIX,cloud-control.sgameglobal.com
+- DOMAIN-SUFFIX,zga.globalconnetct.com
+# TCP
+- DST-PORT,5692
+- DST-PORT,8085
+- DST-PORT,8500
+- DST-PORT,10000
+- DST-PORT,10082
+- DST-PORT,12346
+- DST-PORT,20000
+- DST-PORT,20001
+- DST-PORT,20002
+- DST-PORT,25000
+- DST-PORT,29134
+- DST-PORT,31003
 
-  # UDP
-  - DST-PORT,5010
-  - DST-PORT,6650
-  - DST-PORT,6651
-  - DST-PORT,6652
-  - DST-PORT,6653
-  - DST-PORT,6654
-  - DST-PORT,6655
-  - DST-PORT,6656
-  - DST-PORT,6657
-  - DST-PORT,6658
-  - DST-PORT,6659
-  - DST-PORT,8011
-  - DST-PORT,8700
-  - DST-PORT,30000
+# UDP
+- DST-PORT,5010
+- DST-PORT,6650
+- DST-PORT,6651
+- DST-PORT,6652
+- DST-PORT,6653
+- DST-PORT,6654
+- DST-PORT,6655
+- DST-PORT,6656
+- DST-PORT,6657
+- DST-PORT,6658
+- DST-PORT,6659
+- DST-PORT,8011
+- DST-PORT,8700
+- DST-PORT,30000
   
 # Dream League Soccer
-  - DST-PORT,60970
-  - DST-PORT,60971
-  - DST-PORT,60972
-  - DST-PORT,60973
-  - DST-PORT,60974
-  - DST-PORT,60975
-  - DST-PORT,60976
-  - DST-PORT,60977
-  - DST-PORT,60978
-  - DST-PORT,60979
-  - DST-PORT,60980
+- DST-PORT,60970
+- DST-PORT,60971
+- DST-PORT,60972
+- DST-PORT,60973
+- DST-PORT,60974
+- DST-PORT,60975
+- DST-PORT,60976
+- DST-PORT,60977
+- DST-PORT,60978
+- DST-PORT,60979
+- DST-PORT,60980
   
 # Magic Chests 
 - DST-PORT,14504
@@ -281,13 +281,13 @@ payload:
 - DST-PORT,9339
   
 # Playstation
-  - DOMAIN-SUFFIX,playstation.com
+- DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
   - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
   
 # Rockstar
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+- DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rsg.sc
@@ -305,7 +305,7 @@ payload:
 
 # Sausage Man
   # TCP
-  - DST-PORT,6001
+- DST-PORT,6001
   - DST-PORT,8013
   - DST-PORT,9000
   - DST-PORT,9001
