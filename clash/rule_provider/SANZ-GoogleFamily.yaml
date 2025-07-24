@@ -1,5 +1,5 @@
 # Behavior: classical
-# Last Edited By Qyubisanz14 2025
+# Last Edited By Hendri 2025
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -12,87 +12,87 @@
 # PROCESS-NAME: 6
 # TOTAL: 707
 payload:
-# Google PlayStore
-- DOMAIN-SUFFIX,play.google.com
-- DOMAIN-SUFFIX,one.google.com
-- DOMAIN-SUFFIX,payments.google.com
-- DOMAIN-SUFFIX,gvt1.com
-- DOMAIN-SUFFIX,gvt2.com
-- DOMAIN-SUFFIX,gvt3.com
-- DOMAIN-SUFFIX,googleusercontent.com
-- DOMAIN-SUFFIX,sn-npoe7nez.gvt1.com
-- DOMAIN-SUFFIX,redirector.gvt1.com
-- DOMAIN-SUFFIX,beacons.gvt2.com
-- DOMAIN-SUFFIX,beacons.gcp.gvt2.com
-- DOMAIN-SUFFIX,beacons3.gvt2.com
-- DOMAIN-SUFFIX,beacons4.gvt2.com
-- DOMAIN-SUFFIX,beacons5.gvt3.com
-- DOMAIN-SUFFIX,play-lh.googleusercontent.com
-- DOMAIN-SUFFIX,play.googleapis.com
-- DOMAIN-SUFFIX,play-fe.googleapis.com
-- DOMAIN-SUFFIX,appsitemsuggest-pa.googleapis.com
-- DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
-- DOMAIN-SUFFIX,notifications-pa.googleapis.com
-- DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
-- DOMAIN-SUFFIX,scone-pa.googleapis.com
-- DOMAIN-SUFFIX,content-autofill.googleapis.com
-- DOMAIN-KEYWORD,gvt1.com
-- DOMAIN-KEYWORD,npoe7nez.gvt1.com
-- DOMAIN-KEYWORD,cp1oxu-jb3e.gvt1.com
-- DOMAIN-KEYWORD,cp1oxu-jb36.gvt1.com
-- DOMAIN-KEYWORD,gvt2.com
-- DOMAIN-KEYWORD,gvt3.com
+  # Google PlayStore
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,one.google.com
+  - DOMAIN-SUFFIX,payments.google.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,sn-npoe7nez.gvt1.com
+  - DOMAIN-SUFFIX,redirector.gvt1.com
+  - DOMAIN-SUFFIX,beacons.gvt2.com
+  - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
+  - DOMAIN-SUFFIX,beacons3.gvt2.com
+  - DOMAIN-SUFFIX,beacons4.gvt2.com
+  - DOMAIN-SUFFIX,beacons5.gvt3.com
+  - DOMAIN-SUFFIX,play-lh.googleusercontent.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,play-fe.googleapis.com
+  - DOMAIN-SUFFIX,appsitemsuggest-pa.googleapis.com
+  - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
+  - DOMAIN-SUFFIX,notifications-pa.googleapis.com
+  - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+  - DOMAIN-SUFFIX,scone-pa.googleapis.com
+  - DOMAIN-SUFFIX,content-autofill.googleapis.com
+  - DOMAIN-KEYWORD,gvt1.com
+  - DOMAIN-KEYWORD,npoe7nez.gvt1.com
+  - DOMAIN-KEYWORD,cp1oxu-jb3e.gvt1.com
+  - DOMAIN-KEYWORD,cp1oxu-jb36.gvt1.com
+  - DOMAIN-KEYWORD,gvt2.com
+  - DOMAIN-KEYWORD,gvt3.com
+  # Goggle-ETC
 
-# Goggle-ETC
-- DOMAIN-SUFFIX,ggpht.com
-- DOMAIN-SUFFIX,googleapis.com
-- DOMAIN-SUFFIX,googleusercontent.com
-- DOMAIN-SUFFIX,rr2---sn-npoe7nez.gvt1.com
-- DOMAIN-SUFFIX,rr2---sn-cp1oxu-jb3e.gvt1.com
-- DOMAIN-SUFFIX,rr2---sn-cp1oxu-jb36.gvt1.com
-- DOMAIN-SUFFIX,rr2---sn-w5cgpm-jb3e.gvt1.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,rr2---sn-npoe7nez.gvt1.com
+  - DOMAIN-SUFFIX,rr2---sn-cp1oxu-jb3e.gvt1.com
+  - DOMAIN-SUFFIX,rr2---sn-cp1oxu-jb36.gvt1.com
+  - DOMAIN-SUFFIX,rr2---sn-w5cgpm-jb3e.gvt1.com
+  # GOOGLE MEET, CLASSROOM, HANGOUTS
 
-# GOOGLE MEET, CLASSROOM, HANGOUTS
-- DOMAIN-KEYWORD,meet.google.com
-- DOMAIN-SUFFIX,meetings.googleapis.com
-- DOMAIN-SUFFIX,classroom.google.com
-- DOMAIN-SUFFIX,hangouts.googleapis.comb
+  - DOMAIN-KEYWORD,meet.google.com
+  - DOMAIN-SUFFIX,meetings.googleapis.com
+  - DOMAIN-SUFFIX,classroom.google.com
+  - DOMAIN-SUFFIX,hangouts.googleapis.comb
+  # MAPS 
 
-# MAPS 
-- DOMAIN-SUFFIX,userlocation.googleapis.com
-- DOMAIN-SUFFIX,stun.l.google.com
-- DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
-- DOMAIN-SUFFIX,mtalk.google.com
-- DOMAIN-SUFFIX,mobilemaps.googleapis.com
-- DOMAIN-SUFFIX,mobilemaps-pa-gz.googleapis.com
-- DOMAIN-SUFFIX,clients4.google.com
-- DOMAIN-SUFFIX,android.googleapis.com
-- DOMAIN-SUFFIX,safebrowsing.googleapis.com
-- DOMAIN-SUFFIX,lh3.googleusercontent.com
-- DOMAIN-SUFFIX,lh5.googleusercontent.com
-- DOMAIN-SUFFIX,apis.google.com
-- DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
-- DOMAIN-SUFFIX,gz0.googleusercontent.com
-- DOMAIN-SUFFIX,geoar.googleapis.com
-- DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
-- DOMAIN-SUFFIX,maps.gstatic.com
-- DOMAIN-SUFFIX,maps.google.com
-- DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+  - DOMAIN-SUFFIX,userlocation.googleapis.com
+  - DOMAIN-SUFFIX,stun.l.google.com
+  - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
+  - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,mobilemaps.googleapis.com
+  - DOMAIN-SUFFIX,mobilemaps-pa-gz.googleapis.com
+  - DOMAIN-SUFFIX,clients4.google.com
+  - DOMAIN-SUFFIX,android.googleapis.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,lh3.googleusercontent.com
+  - DOMAIN-SUFFIX,lh5.googleusercontent.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
+  - DOMAIN-SUFFIX,gz0.googleusercontent.com
+  - DOMAIN-SUFFIX,geoar.googleapis.com
+  - DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
+  - DOMAIN-SUFFIX,maps.gstatic.com
+  - DOMAIN-SUFFIX,maps.google.com
+  - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+  # Classroom
 
-# Classroom
-- DOMAIN-SUFFIX,dns.google
-- DOMAIN-SUFFIX,clients3.google.com
-- DOMAIN-SUFFIX,notifications-pa.googleapis.com
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN-SUFFIX,clients3.google.com
+  - DOMAIN-SUFFIX,notifications-pa.googleapis.com
+  # Drive
 
-# Drive
-- DOMAIN,www.googleapis.com
-- DOMAIN-SUFFIX,docs.google.com
-- DOMAIN-SUFFIX,drive.google.com
-- DOMAIN-SUFFIX,googledrive.com
-- DOMAIN-SUFFIX,googleusercontent.com
-- PROCESS-NAME,BackupandSync
+  - DOMAIN,www.googleapis.com
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - PROCESS-NAME,BackupandSync
+  # Google Earth 
 
-# Google Earth 
   - DOMAIN-SUFFIX,earth-pa.clients6.google.com
   - DOMAIN-SUFFIX,earth.google.com
   - DOMAIN-SUFFIX,kh.google.com
@@ -109,8 +109,8 @@ payload:
   - DOMAIN-SUFFIX,khmdb.google.com
   - DOMAIN-SUFFIX,khmdb.googleapis.com
   - DOMAIN-SUFFIX,mw1.google.com
-  
-# Google FCM
+  # Google FCM
+
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com
   - DOMAIN,alt3-mtalk.google.com
@@ -146,6 +146,6 @@ payload:
   - IP-CIDR,74.125.23.188/32
   - IP-CIDR,74.125.24.188/32
   - IP-CIDR,74.125.28.188/32
+  # Google Voice
 
-# Google Voice
-- DOMAIN,lens.l.google.com
+  - DOMAIN,lens.l.google.com
